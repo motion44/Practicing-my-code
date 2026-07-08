@@ -1,0 +1,21 @@
+def add(a, b):
+    result = a + b
+
+def subtract(a, b):
+    result = a - b
+    
+def multiply(a, b):
+    result = a * b
+    
+def divide(a, b):
+    result = a / b
+    
+print(Choose 1 for adding, 2 for subtracting, 3 for multiplication, and 4 for division)
+choice = int(input("Choose your operation"))
+if choice != 1,2,3,4:
+    print("Wrong choice!")
+first_number = int(input("What is your first number?"))
+second_number = int(input("What is your second number?"))
+
+first_number = a
+second_number = b
